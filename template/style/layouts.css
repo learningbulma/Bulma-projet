@@ -7,7 +7,7 @@ HEADER HEADER */
 
 header {
     height: 3rem;
-    background: #fdcb6e;
+    border-bottom:0.1px solid rgba(99, 110, 114, 0.605);
     
     
     display:flex;
@@ -17,6 +17,14 @@ header {
 
 .section-1{
     height: 16rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-2{
+    margin-top: 10rem;
+    height: 30rem;
+    
     display:flex;
     justify-content: center;
     align-items: center;
