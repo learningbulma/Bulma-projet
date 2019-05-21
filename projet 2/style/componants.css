@@ -4,9 +4,25 @@ Google font */
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lora:400,700&display=swap');
 
+:root {
+    --main-bg-color: #ff4757;
 
+
+    --btn-bg-primary: #1e272e;
+    --btn-bg-hover: #485460;
+
+    --section-bg: #d2dae2;
+
+    --prefooter-bg:#ffd32a;
+    -footer-bg:#1e272e;
+  }
 /*///////////////////////////
 NAVIGATION */
+
+.navnav{
+    padding-top: 3rem;
+    padding-left: 55rem;
+}
 .side-nav{
     
     font-size: 1.7rem;
@@ -22,7 +38,7 @@ NAVIGATION */
 .link{
     list-style:none;
     text-decoration: none;
-    color: #2d3436;
+    color: white;
     font-weight: 700;
     font-family: 'Lato';
 }
@@ -38,46 +54,30 @@ NAVIGATION */
 
 /*///////////////////////////
 Main-title */
+
+.hero-title{
+    top:45%;
+    right: 25%;
+    position: absolute;
+    min-width: 40rem;
+    
+}
 .title-hero{
 text-transform: uppercase;
 font-size: 3.2rem;
 display: block;
 font-size: 4rem;
-font-weight: 700;
+font-weight: 400;
 letter-spacing: .5rem;
+text-align: center;
 font-family: "Dancing Script";
-color: #2d3436;
-position: relative;
+color: var(--section-bg);
+position: absolute;
 }
+.sub-title-hero{
+padding-top: 6rem;
+color: var(--section-bg);
+font-size: 1.2rem;
+letter-spacing: 10px;
 
-.title-hero:after {
-    content:' ';
-    position: absolute;
-    top:100%;
-    left:50%;
-    width: 20px;
-    border:2px solid #fdcb6e;
-    border-radius:4px;
-    width: 50%;
-    transform:translateX(-50%);
-  
-  }
-
-
-  .imgs{
-      height: 40rem;
-  opacity: 0.5;
-  -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  transform: scale(1.15);
-  -webkit-transition: -webkit-transform 1.5s, opacity 1.5s;
-  transition: transform 1.5s, opacity 1.5s;
-}
-
-.imgs:hover {
-  opacity: 100;
-  -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
-  cur
 }
