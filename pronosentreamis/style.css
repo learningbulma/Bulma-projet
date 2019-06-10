@@ -1,0 +1,162 @@
+/*header{
+    height: 20px;
+    width: 200px;
+    border: 1px solid rgba(116, 116, 116, 0.363);
+    border-radius: 80px;
+    padding-top: 10px;
+}
+
+
+main{
+    position: absolute;
+    top:-1px;
+    height: 12px;
+    width: 90px;
+    left: 15px;
+    background: white;
+    padding-left: 10px;
+    display: flex;
+    color: rgba(116, 116, 116, 0.363);
+    font-size: 13px;
+}
+
+header:hover, main:hover{
+    border-color: rgb(79, 150, 255);
+    color:  rgb(79, 150, 255);
+}
+
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    min-height: 14vh;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    color:#334166;
+    
+}
+
+.nomsite{
+    
+    font-size: 20px;
+}
+.navi{
+    min-width: 800px;
+    margin-left: 27.8%;
+}
+  a {
+    text-decoration: none;
+    display: inline-block;
+    min-width: 100px;
+    padding: 5px 10px;
+    color:#334166;
+    font-size: 20px;
+    text-align: center;
+  } 
+
+header{
+    height: 80vh;
+    background-image: url(1.png);
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+}
+section{
+    
+    
+    left:200px;
+    top: 200px;
+    position: relative;
+    max-width: 600px;
+    min-height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+    
+
+}
+.bluelogin{
+    font-size: 28Px;
+    color: #466ED8;
+}
+.first{
+    border: 1px solid rgba(116, 116, 116, 0.363);
+    border-radius: 85px;
+    padding:5px 30px;
+    min-width: 350px;
+    min-height: 30px;
+    
+
+}
+
+.deux{
+    
+    border: 1px solid rgba(116, 116, 116, 0.363);
+    border-radius: 85px;
+    padding: 5px 30px;
+    min-width: 350px;
+    min-height: 30px;
+
+}
+
+.trois{
+    border: 1px solid rgba(116, 116, 116, 0.363);
+    border-radius: 80px;
+    padding: 5px 30px;
+    min-width: 50px;
+    min-height: 20px;
+    background-color: rgb(49, 101, 199);
+    color: white;
+}
+
+.item{
+    margin: 20px;
+    display:flex;
+    align-items: center;
+    
+}
+.grey{
+    color: rgba(116, 116, 116, 0.363);
+}
+
+.dasheddd{
+
+    border-bottom: 2px solid rgba(116, 116, 116, 0.171);
+    height: 2px;
+    min-width: 400px;
+}
+.mdp{
+    position: absolute;
+    top:44.3%;
+    left: 54.9%;
+    
+    font-size: 15Px;
+    color: #466ED8;
+}
+
+.NoAccount{
+    font-size: 18Px;
+    color: #466ED8;
+}
+
+.right{
+    position: absolute;
+    top:61.8%;
+    left: 54.9%;
+    font-size: 18Px;
+    color: #466ED8;
+    display: flex;
+}
+
+.ez{
+    margin-left:6px
+}
