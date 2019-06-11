@@ -1,0 +1,18 @@
+/*! Import */ 
+
+
+/** BG */ 
+
+body{
+height: 98vh;
+background-image: url(bg/2.png);
+background-size: cover;
+}
+
+.top-left{
+    margin-left: 150px;
+    min-height: 1275px;
+    max-width: 620px;
+    border: 1px solid black;
+
+}
